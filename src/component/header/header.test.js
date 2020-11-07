@@ -17,4 +17,12 @@ describe('Header Component', () => {
     const logo = findByTestAttr(component, 'logoIMG')
     expect(logo.length).toBe(1)
   })
+  it('should render css class "wrap"', () => {
+    const wrap = component.find('.wrap')
+    expect(wrap.length).toBe(1)
+  })
+  it('should render css class "logo"', () => {
+    const wrap = component.find('.logo')
+    expect(wrap.length).toBe(1)
+  })
 })
