@@ -31,4 +31,4 @@ jobs:
       run: npm install
 
     - name: Run the tests and generate coverage report
-      run: npm test -- --coverage
+      run: npm test -- --coverage --watchAll
