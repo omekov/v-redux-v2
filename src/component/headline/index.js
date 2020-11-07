@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-
+import PropTypes from 'prop-types'
 export default class Headline extends Component {
   // eslint-disable-next-line 
   constructor(props) {
@@ -19,4 +19,9 @@ export default class Headline extends Component {
       </div>
     )
   }
+}
+
+Headline.propTypes = {
+  header: PropTypes.string,
+  desc: PropTypes.string,
 }
