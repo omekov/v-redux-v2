@@ -5,9 +5,9 @@ name: React Component Unit testing CI
 
 on:
   push:
-    branches: [ testingComponents ]
+    branches: [ master ]
   pull_request:
-    branches: [ testingComponents ]
+    branches: [ master ]
 
 jobs:
   build:
